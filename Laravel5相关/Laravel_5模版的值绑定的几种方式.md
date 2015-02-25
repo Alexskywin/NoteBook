@@ -6,7 +6,7 @@
 ##方法一
 
 	class PagesController extends Controller {
-	    public function about
+	    public function about()
 	    {
 	    	$name = 'Summer.夏天';
 	    	
@@ -16,7 +16,7 @@
 	
 ##方法二
 	class PagesController extends Controller {
-	    public function about
+	    public function about()
 	    {
 	    	$name = 'Summer.夏天';
 	    	
@@ -27,7 +27,7 @@
 	
 ##方法三
 	class PagesController extends Controller {
-	    public function about
+	    public function about()
 	    {
 	    	$data = [];
 	    	$data['first'] = 'Summer.';
@@ -39,7 +39,7 @@
 	
 ##方法四
 	class PagesController extends Controller {
-	    public function about
+	    public function about()
 	    {
 	    	$data = [];
 	    	$data['first'] = 'Summer.';
@@ -52,7 +52,7 @@
 
 ##方法五
 	class PagesController extends Controller {
-	    public function about
+	    public function about()
 	    {
 	    	$first = 'Summer.';
 	    	$last  = '夏天';
