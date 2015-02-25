@@ -66,7 +66,7 @@
 
 假设模版about.blade.php读取变量为$name = 'Summer.夏天';
 
-{{ $name }} => 输出 "Summer.夏天"
+{{ $name }} => 输出 "Summer.夏天"  
 {!! $name !!} => 输出 "Summer.夏天"
 
 两个方式不同点在于, {{ $name }} 会将html标签转义, {!! $name !!}会将html原样输出.
