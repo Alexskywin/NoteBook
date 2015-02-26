@@ -48,6 +48,8 @@ vagrant环境搞定
 	
 	sudo ln -s /vagrant /usr/share/nginx/html
 
+注意: 这里的 /vagrant 目录其实就是你之前创建的 ubuntu_lnmp 目录, 你在本地修改 ubuntu_lnmp 虚拟机中 /vagrant 目录也会同步
+
 修改/etc/php5/fpm/php.ini
 
 	cgi.fix_pathinfo = 0
